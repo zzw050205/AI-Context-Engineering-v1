@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Task Finalize"
+  short_description: "Verify, maintain context, and commit one coding task"
+  default_prompt: "Finalize the current coding task according to project guidance."
+policy:
+  allow_implicit_invocation: true

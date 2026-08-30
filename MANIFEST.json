@@ -1,0 +1,21 @@
+{
+  "name": "AI-Context-Engineering-v1",
+  "version": "1.0.0",
+  "generated_date": "2026-08-01",
+  "components": {
+    "global_agents": "~/.codex/AGENTS.md",
+    "user_skills": [
+      "$HOME/.agents/skills/project-context-init",
+      "$HOME/.agents/skills/project-task-finalize"
+    ],
+    "project_template": "project-template/"
+  },
+  "deliberately_deferred": [
+    "MCP",
+    "Plugin packaging",
+    "Stop hooks",
+    "multi-agent",
+    "automatic push/PR/deploy",
+    "external knowledge base"
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Context Init"
+  short_description: "Initialize a minimal Codex project-context system"
+  default_prompt: "Initialize project context safely in the current repository."
+policy:
+  allow_implicit_invocation: false

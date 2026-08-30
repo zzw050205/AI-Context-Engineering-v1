@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Common dependency and build directories
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+coverage/
+
+# IDE-local files
+.idea/
+.vscode/
